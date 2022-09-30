@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Trabajadores</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+        <legend>Registro Trabajadores</legend>
+        <label for="rut">Rut: </label>
+        <input id="rut" name="rut" type="text" placeholder="Sin puntos ni guion">
+        <br>
+        <label for="nombre">Nombre: </label>
+        <input id="nombre" type="text">
+        <br>
+        <label for="apellido paterno">Apellido Paterno: </label>
+        <input id="apellido paterno" type="text">
+        <br>
+        <label for="apellido materno">Apellido Materno: </label>
+        <input id="apellido materno" type="text">
+        <br>
+        <label for="sexo">sexo: </label>
+        <label for="Masculino">Masculino</label>
+        <input type="radio" name="sexo">
+        <label for="Femenino">Femenino</label>
+        <input type="radio" name="sexo">
+        <br>
+        <label for="nivel de estudio">Nivel de Estudio: </label>
+        <input type="checkbox" name="nivel de estudio">
+        <label for="no tiene">No tiene</label>
+        <input type="checkbox" name="nivel de estudio">
+        <label for="tecnico">Tecnico</label>
+        <input type="checkbox" name="nivel de estudio">
+        <label for="universitario">Universitario</label>
+
+        <br>
+        <label for="ciudad de nacimiento">Ciudad de nacimiento </label>
+        <select name="ciudad de nacimiento" id="ciudad de nacimiento">
+            <option value="Lima">Lima</option>
+            <option value="Piura">Piura</option>
+            <option value="Trujillo">Trujillo</option>
+            <option value="Ayacucho">Ayacucho</option>
+            <option value="Puno">Puno</option>
+        </select>
+        <br>
+        <label for="curriculum">curriculum </label>
+        <input type="file">
+
+        <br>
+        <label for="foto">Foto</label>
+        <input type="file">
+        <br>
+        <button type="button">Registrar trabajador</button>
+        </fieldset>
+        
+
+    </form>
+</body>
+</html>
